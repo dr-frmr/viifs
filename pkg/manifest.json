@@ -1,0 +1,15 @@
+[
+    {
+        "process_name": "viifs",
+        "process_wasm_path": "/viifs.wasm",
+        "on_exit": "None",
+        "request_networking": false,
+        "request_capabilities": [
+            "vfs:distro:sys"
+        ],
+        "grant_capabilities": [
+            "vfs:distro:sys"
+        ],
+        "public": false
+    }
+]
