@@ -11,5 +11,20 @@
             "vfs:distro:sys"
         ],
         "public": false
+    },
+    {
+        "process_name": "nettest",
+        "process_wasm_path": "/nettest.wasm",
+        "on_exit": "None",
+        "request_networking": true,
+        "request_capabilities": [
+            "kns_indexer:kns_indexer:sys",
+            "net:distro:sys"
+        ],
+        "grant_capabilities": [
+            "kns_indexer:kns_indexer:sys",
+            "net:distro:sys"
+        ],
+        "public": false
     }
 ]

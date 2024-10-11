@@ -1594,6 +1594,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "nettest"
+version = "0.1.0"
+dependencies = [
+ "bincode",
+ "kinode_process_lib",
+ "rmp-serde",
+ "serde",
+ "serde_json",
+ "wit-bindgen",
+]
+
+[[package]]
 name = "num-bigint"
 version = "0.4.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
